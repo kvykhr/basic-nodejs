@@ -1,0 +1,215 @@
+STATUS 2021-05-12T08:13:05.104Z : {
+  message: "ready to connect to DB",
+}
+STATUS 2021-05-12T08:13:06.467Z : {
+  message: "DB connected",
+}
+STATUS 2021-05-12T08:13:06.468Z : {
+  message: "Server is running",
+}
+INPUT 2021-05-12T08:13:18.928Z : {
+  method: "GET",
+  url: "/",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T08:13:19.166Z : {
+  method: "GET",
+  url: "/favicon.ico",
+  queryParams: {},
+  body: {},
+}
+STATUS 2021-05-12T12:56:19.575Z : {
+  message: "ready to connect to DB",
+}
+STATUS 2021-05-12T12:56:21.093Z : {
+  message: "DB connected",
+}
+STATUS 2021-05-12T12:56:21.103Z : {
+  message: "Server is running",
+}
+INPUT 2021-05-12T12:56:36.974Z : {
+  method: "GET",
+  url: "/doc",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:56:36.991Z : {
+  method: "GET",
+  url: "/doc/",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:56:37.081Z : {
+  method: "GET",
+  url: "/doc/swagger-ui.css",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:56:37.100Z : {
+  method: "GET",
+  url: "/doc/swagger-ui-bundle.js",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:56:37.102Z : {
+  method: "GET",
+  url: "/doc/swagger-ui-standalone-preset.js",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:56:37.102Z : {
+  method: "GET",
+  url: "/doc/swagger-ui-init.js",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:56:37.888Z : {
+  method: "GET",
+  url: "/doc/favicon-32x32.png",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:57:59.355Z : {
+  method: "GET",
+  url: "/boards/1",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-12T12:59:11.991Z : {
+  method: "GET",
+  url: "/users",
+  queryParams: {},
+  body: {},
+}
+ERROR 2021-05-12T12:59:11.993Z : {
+  error: {
+    message: "jwt malformed",
+    code: '',
+    stack: "JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/jsonwebtoken/verify.js:63:17)
+    at JwtService.verifyJWT (/home/ubunto/git.folder/do/rs-nodeJS/src/common/jwt.service.js:17:35)
+    at verifyToken (/home/ubunto/git.folder/do/rs-nodeJS/src/middlewares/verify-token.middleware.js:15:37)
+    at /home/ubunto/git.folder/do/rs-nodeJS/src/middlewares/async-handler.middleware.js:2:10
+    at Layer.handle [as handle_request] (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:275:10)
+    at /home/ubunto/git.folder/do/rs-nodeJS/src/app.js:27:3
+    at Layer.handle [as handle_request] (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubunto/git.folder/do/rs-nodeJS/node_modules/express/lib/router/index.js:275:10)
+    at inputLogger (/home/ubunto/git.folder/do/rs-nodeJS/src/middlewares/input-logger.middleware.js:5:3)",
+  },
+}
+STATUS 2021-05-12T13:00:48.305Z : {
+  message: "ready to connect to DB",
+}
+STATUS 2021-05-12T13:00:49.847Z : {
+  message: "DB connected",
+}
+STATUS 2021-05-12T13:00:49.852Z : {
+  message: "Server is running",
+}
+STATUS 2021-05-13T11:40:37.850Z : {
+  message: "ready to connect to DB",
+}
+UNHANDLED REJECTION 2021-05-13T11:41:52.934Z : {
+  error: {
+    message: "querySrv ETIMEOUT _mongodb._tcp.cluster0.juf98.mongodb.net",
+    code: "ETIMEOUT",
+    stack: "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.juf98.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (dns.js:203:19)",
+  },
+}
+STATUS 2021-05-13T11:46:38.778Z : {
+  message: "ready to connect to DB",
+}
+STATUS 2021-05-13T11:47:33.788Z : {
+  message: "ready to connect to DB",
+}
+STATUS 2021-05-13T11:47:44.059Z : {
+  message: "ready to connect to DB",
+}
+UNHANDLED REJECTION 2021-05-13T11:48:48.883Z : {
+  error: {
+    message: "querySrv ETIMEOUT _mongodb._tcp.cluster0.juf98.mongodb.net",
+    code: "ETIMEOUT",
+    stack: "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.juf98.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (dns.js:203:19)",
+  },
+}
+UNHANDLED REJECTION 2021-05-13T11:48:59.256Z : {
+  error: {
+    message: "querySrv ETIMEOUT _mongodb._tcp.cluster0.juf98.mongodb.net",
+    code: "ETIMEOUT",
+    stack: "Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.juf98.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (dns.js:203:19)",
+  },
+}
+STATUS 2021-05-15T12:30:23.620Z : {
+  message: "ready to connect to DB",
+}
+STATUS 2021-05-15T12:30:25.679Z : {
+  message: "DB connected",
+}
+STATUS 2021-05-15T12:30:25.681Z : {
+  message: "Server is running",
+}
+INPUT 2021-05-15T12:31:09.363Z : {
+  method: "GET",
+  url: "/",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:09.579Z : {
+  method: "GET",
+  url: "/favicon.ico",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:15.772Z : {
+  method: "GET",
+  url: "/doc",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:15.789Z : {
+  method: "GET",
+  url: "/doc/",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:15.855Z : {
+  method: "GET",
+  url: "/doc/swagger-ui.css",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:15.867Z : {
+  method: "GET",
+  url: "/doc/swagger-ui-bundle.js",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:15.878Z : {
+  method: "GET",
+  url: "/doc/swagger-ui-standalone-preset.js",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:15.879Z : {
+  method: "GET",
+  url: "/doc/swagger-ui-init.js",
+  queryParams: {},
+  body: {},
+}
+INPUT 2021-05-15T12:31:17.222Z : {
+  method: "GET",
+  url: "/doc/favicon-32x32.png",
+  queryParams: {},
+  body: {},
+}
